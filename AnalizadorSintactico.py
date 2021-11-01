@@ -1,3 +1,4 @@
+from os import startfile
 from Token import Token
 from Error import Error
 from registro import Registro
@@ -58,8 +59,120 @@ class AnalizadorSintactico:
             self.ins_max()
         elif self.listaTokens[self.i].tipo == 'min':
             self.ins_min()
+        elif self.listaTokens[self.i].tipo == 'exportarReporte':
+            self.ins_reporte()
     
     
+    
+    
+    def ins_reporte(self):
+        
+        if self.listaTokens[self.i].tipo == 'exportarReporte':
+            self.i+=1
+            
+            if self.listaTokens[self.i].tipo == 'parA':
+                self.i+=1
+                if self.listaTokens[self.i].tipo == 'cadena':
+                    nombre = self.listaTokens[self.i]
+                    self.i+=1  
+                    
+                    if self.listaTokens[self.i].tipo == 'parC':
+                        
+                        self.i+=1
+                        
+                        if self.listaTokens[self.i].tipo == 'puntoComa':
+                            self.i+=1
+                            
+                            
+                            
+                            cadenaRegistros = ''          
+
+                            
+                            for i in self.registros:
+                                agregado = '<tr>'
+                                for a in i.data:
+                                    agregado += f'<td>{a.lexema}</td>'
+                                agregado += '</tr>'
+                                cadenaRegistros += agregado
+                                    
+                                    
+                                    
+                                    
+                            cadenaClaves = '<tr>'
+                            for i in self.claves:
+
+                                cadenaClaves += f'<th>{i.lexema.upper()}</th>'
+                            cadenaClaves += '</tr>'
+                            
+                            
+                            
+                                
+                            html = f'''
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="latin-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{nombre.lexema}</title>
+<style>
+        body {{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }}
+        table {{
+            border-collapse: collapse;
+            width: 60%;
+        }}
+        table, th, td {{
+            border: 2px solid black;
+            border-radius: 10px;
+        }}
+        th {{
+            background-color: #f2f2f2;
+        }}
+        td {{
+            text-align: center;
+        }}
+        .text-center {{
+            text-align: center;
+        }}
+    </style>
+</head>
+<body>
+    <h1>{nombre.lexema}</h1>
+    <div>
+        <table border=1>
+        {cadenaClaves}    
+        {cadenaRegistros}
+
+        </table>
+
+    </div>
+</body>
+</html>
+                            
+                            '''                
+                            file = open(f'{nombre.lexema}.html','w')
+                            file.write(html)
+                            file.close()
+                            startfile(f'{nombre.lexema}.html')
+                                
+                            
+                            
+                        else:
+                            self.funcError()
+                    else:
+                        self.funcError()
+                else:
+                    self.funcError()
+            else:
+                self.funcError()
+        else:
+            self.funcError()
+            
+    
+        
     def ins_datos(self):
         if self.listaTokens[self.i].tipo == 'datos':
             self.i+=1
@@ -210,7 +323,7 @@ class AnalizadorSintactico:
                                     break
                             promedio = 0
                             for a in self.registros:
-                                promedio +=int(a.data[index].lexema)
+                                promedio +=float(a.data[index].lexema)
                             promedio = promedio/len(self.registros)
                             self.impresiones += (f'\nPromedio en el campo {token.lexema} es:\n{promedio}')
                             
@@ -329,7 +442,7 @@ class AnalizadorSintactico:
                                     break
                             suma = 0
                             for a in self.registros:
-                                suma +=int(a.data[index].lexema)
+                                suma +=float(a.data[index].lexema)
                             
                             self.impresiones += (f'\nLa suma de los registros\nen el campo {token.lexema} es: {suma}')
                             
@@ -485,6 +598,9 @@ class AnalizadorSintactico:
             self.claves.append(self.listaTokens[self.i])
             self.i+=1
             self.lista_claves2()
+        elif self.listaTokens[self.i].tipo == 'coma':
+                self.i+=1
+                
         else:
             self.funcError()
     def lista_claves2(self):
@@ -535,6 +651,9 @@ class AnalizadorSintactico:
         elif self.listaTokens[self.i].tipo == 'min':
             self.instruccion()
             self.lista_instrucciones2()
+        elif self.listaTokens[self.i].tipo == 'exportarReporte':
+            self.instruccion()
+            self.lista_instrucciones2()
         
         elif self.listaTokens[self.i].tipo == 'EOF':
             print('analisis sintactico terminado')
@@ -576,6 +695,9 @@ class AnalizadorSintactico:
             self.instruccion()
             self.lista_instrucciones2()
         elif self.listaTokens[self.i].tipo == 'min':
+            self.instruccion()
+            self.lista_instrucciones2()
+        elif self.listaTokens[self.i].tipo == 'exportarReporte':
             self.instruccion()
             self.lista_instrucciones2()
         
@@ -653,3 +775,53 @@ class AnalizadorSintactico:
             for i in self.listaErrores:
                 
                 i.impError()
+                
+    
+    def crearReporteTokens(self):
+        scanner = self.listaTokens
+        
+        html='''   <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <table border=1>
+        <tr><td>LEXEMA</td><td>TIPO</td><td>FILA</td><td>COLUMNA</td></tr>
+        '''
+        for i in scanner:
+            html+=f'<tr><td>{i.lexema}</td><td>{i.tipo}</td><td>{i.linea}</td><td>{i.columna}</td></tr>'
+        html+='</table></body>\n</html>'
+        
+        file = open('Tokens.html','w')
+        file.write(html)
+        file.close()
+        startfile('Tokens.html')
+        
+    def crearReporteErrores(self):
+        scanner = self.listaErrores
+        
+        html='''   <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <table border=1>
+        <tr><td>DESCRIPCION</td><td>TIPO</td><td>FILA</td><td>COLUMNA</td></tr>
+        '''
+        for i in scanner:
+            html+=f'<tr><td>{i.descripcion}</td><td>{i.tipo}</td><td>{i.linea}</td><td>{i.columna}</td></tr>'
+        html+='</table></body>\n</html>'
+        
+        file = open('Errores.html','w')
+        file.write(html)
+        file.close()
+        startfile('Errores.html')
+        

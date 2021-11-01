@@ -37,9 +37,11 @@ class AnalizadorLexico:
         centinela = '$'
         estado = 0
         codigo_fuente += centinela
+        
         i=0
         while i<len(codigo_fuente):
             c = codigo_fuente[i]
+            
             
             if estado == 0:
                 

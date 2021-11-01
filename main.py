@@ -13,9 +13,17 @@ class VentanaEditor(QDialog):
         self.ui.setupUi(self)
         self.ui.bCargar.clicked.connect(self.cargar)
         self.ui.bAnalizar.clicked.connect(self.analizar)
-        
+        self.ui.bReporte.clicked.connect(self.reporte)
+        self.parser = ''
+        self.scanner = ''
+        self.tokens = []
+        self.errores = []
         self.show()
-        
+    
+    def reporte(self):
+        self.parser.crearReporteErrores()
+        self.parser.crearReporteTokens()
+    
     def cargar(self):
         archivo = QFileDialog.getOpenFileName(self,"Abrir archivo",".","Texto (*.lfp)")
         archivo = open(archivo[0],'r')
@@ -25,19 +33,19 @@ class VentanaEditor(QDialog):
         self.ui.Editor.setPlainText(data)
         
     def analizar(self):
-        scanner = AnalizadorLexico()
-        listaTokens = scanner.analizar(self.ui.Editor.toPlainText())
+        self.scanner = AnalizadorLexico()
+        listaTokens = self.scanner.analizar(self.ui.Editor.toPlainText())
         
-        scanner.impTokens()
-        scanner.impErrores()
-        parser = AnalizadorSintactico()
+        self.scanner.impTokens()
+        self.scanner.impErrores()
+        self.parser = AnalizadorSintactico()
         
-        parser.analizar(listaTokens)
-        parser.impErrores()
+        self.parser.analizar(listaTokens)
+        self.parser.impErrores()
         
         
         console = ''
-        for i in parser.impresiones:
+        for i in self.parser.impresiones:
             console+=i
         
         self.ui.Consola.setPlainText(console)

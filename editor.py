@@ -158,15 +158,15 @@ class Editor(object):
         font.setWeight(75)
         self.bAnalizar.setFont(font)
         self.bAnalizar.setObjectName("bAnalizar")
-        self.bAnalizar_2 = QtWidgets.QPushButton(Dialog)
-        self.bAnalizar_2.setGeometry(QtCore.QRect(880, 10, 211, 61))
+        self.bReporte = QtWidgets.QPushButton(Dialog)
+        self.bReporte.setGeometry(QtCore.QRect(880, 10, 211, 61))
         font = QtGui.QFont()
         font.setFamily("Tw Cen MT")
         font.setPointSize(20)
         font.setBold(True)
         font.setWeight(75)
-        self.bAnalizar_2.setFont(font)
-        self.bAnalizar_2.setObjectName("bAnalizar_2")
+        self.bReporte.setFont(font)
+        self.bReporte.setObjectName("bReporte")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -178,7 +178,7 @@ class Editor(object):
         self.lConsola.setText(_translate("Dialog", "Consola"))
         self.bCargar.setText(_translate("Dialog", "CARGAR"))
         self.bAnalizar.setText(_translate("Dialog", "ANALIZAR"))
-        self.bAnalizar_2.setText(_translate("Dialog", "REPORTES"))
+        self.bReporte.setText(_translate("Dialog", "REPORTES"))
 
 
 if __name__ == "__main__":

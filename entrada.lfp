@@ -1,25 +1,25 @@
 
 '''
-	Seccion de 
+	Seccion de
 	Datos
 '''
 
 imprimir("/***** ***** ***** ");
 imprimir("Claves");
 imprimir(" ***** ***** *****\");
-imprimirln(" ")
-imprimirln(" ")
+imprimirln(" ");
+imprimirln(" ");
 
 Claves = [
-	"codigo", "producto", "precio_compra", 
+	"codigo", "producto", "precio_compra",
 	"precio_venta", "stock"
 ]
 
 imprimir("/***** ***** ***** ");
 imprimir("Registros");
 imprimir(" ***** ***** *****\");
-imprimirln(" ")
-imprimirln(" ")
+imprimirln(" ");
+imprimirln(" ");
 
 Registros = [
 	{1, "Barbacoa", 10.50, 20.00, 6}

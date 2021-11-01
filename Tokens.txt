@@ -1,0 +1,295 @@
+Lexema: '''
+	Seccion de
+	Datos
+''' Tipo: comentarioMl Linea: 5 Columna: 4
+Lexema: imprimir Tipo: imprimir Linea: 7 Columna: 9
+Lexema: ( Tipo: parA Linea: 7 Columna: 9
+Lexema: /***** ***** *****  Tipo: cadena Linea: 7 Columna: 30
+Lexema: ) Tipo: parC Linea: 7 Columna: 31
+Lexema: ; Tipo: puntoComa Linea: 7 Columna: 32
+Lexema: imprimir Tipo: imprimir Linea: 8 Columna: 9
+Lexema: ( Tipo: parA Linea: 8 Columna: 9
+Lexema: Claves Tipo: cadena Linea: 8 Columna: 17
+Lexema: ) Tipo: parC Linea: 8 Columna: 18
+Lexema: ; Tipo: puntoComa Linea: 8 Columna: 19
+Lexema: imprimir Tipo: imprimir Linea: 9 Columna: 9
+Lexema: ( Tipo: parA Linea: 9 Columna: 9
+Lexema:  ***** ***** *****\ Tipo: cadena Linea: 9 Columna: 30
+Lexema: ) Tipo: parC Linea: 9 Columna: 31
+Lexema: ; Tipo: puntoComa Linea: 9 Columna: 32
+Lexema: imprimirln Tipo: imprimirln Linea: 10 Columna: 11
+Lexema: ( Tipo: parA Linea: 10 Columna: 11
+Lexema:   Tipo: cadena Linea: 10 Columna: 14
+Lexema: ) Tipo: parC Linea: 10 Columna: 15
+Lexema: ; Tipo: puntoComa Linea: 10 Columna: 16
+Lexema: imprimirln Tipo: imprimirln Linea: 11 Columna: 11
+Lexema: ( Tipo: parA Linea: 11 Columna: 11
+Lexema:   Tipo: cadena Linea: 11 Columna: 14
+Lexema: ) Tipo: parC Linea: 11 Columna: 15
+Lexema: ; Tipo: puntoComa Linea: 11 Columna: 16
+Lexema: Claves Tipo: claves Linea: 13 Columna: 7
+Lexema: = Tipo: igual Linea: 13 Columna: 8
+Lexema: [ Tipo: corA Linea: 13 Columna: 10
+Lexema: codigo Tipo: cadena Linea: 14 Columna: 9
+Lexema: , Tipo: coma Linea: 14 Columna: 10
+Lexema: producto Tipo: cadena Linea: 14 Columna: 21
+Lexema: , Tipo: coma Linea: 14 Columna: 22
+Lexema: precio_compra Tipo: cadena Linea: 14 Columna: 38
+Lexema: , Tipo: coma Linea: 14 Columna: 39
+Lexema: precio_venta Tipo: cadena Linea: 15 Columna: 15
+Lexema: , Tipo: coma Linea: 15 Columna: 16
+Lexema: stock Tipo: cadena Linea: 15 Columna: 24
+Lexema: ] Tipo: corC Linea: 16 Columna: 1
+Lexema: imprimir Tipo: imprimir Linea: 18 Columna: 9
+Lexema: ( Tipo: parA Linea: 18 Columna: 9
+Lexema: /***** ***** *****  Tipo: cadena Linea: 18 Columna: 30
+Lexema: ) Tipo: parC Linea: 18 Columna: 31
+Lexema: ; Tipo: puntoComa Linea: 18 Columna: 32
+Lexema: imprimir Tipo: imprimir Linea: 19 Columna: 9
+Lexema: ( Tipo: parA Linea: 19 Columna: 9
+Lexema: Registros Tipo: cadena Linea: 19 Columna: 20
+Lexema: ) Tipo: parC Linea: 19 Columna: 21
+Lexema: ; Tipo: puntoComa Linea: 19 Columna: 22
+Lexema: imprimir Tipo: imprimir Linea: 20 Columna: 9
+Lexema: ( Tipo: parA Linea: 20 Columna: 9
+Lexema:  ***** ***** *****\ Tipo: cadena Linea: 20 Columna: 30
+Lexema: ) Tipo: parC Linea: 20 Columna: 31
+Lexema: ; Tipo: puntoComa Linea: 20 Columna: 32
+Lexema: imprimirln Tipo: imprimirln Linea: 21 Columna: 11
+Lexema: ( Tipo: parA Linea: 21 Columna: 11
+Lexema:   Tipo: cadena Linea: 21 Columna: 14
+Lexema: ) Tipo: parC Linea: 21 Columna: 15
+Lexema: ; Tipo: puntoComa Linea: 21 Columna: 16
+Lexema: imprimirln Tipo: imprimirln Linea: 22 Columna: 11
+Lexema: ( Tipo: parA Linea: 22 Columna: 11
+Lexema:   Tipo: cadena Linea: 22 Columna: 14
+Lexema: ) Tipo: parC Linea: 22 Columna: 15
+Lexema: ; Tipo: puntoComa Linea: 22 Columna: 16
+Lexema: Registros Tipo: registros Linea: 24 Columna: 10
+Lexema: = Tipo: igual Linea: 24 Columna: 11
+Lexema: [ Tipo: corA Linea: 24 Columna: 13
+Lexema: { Tipo: llaveA Linea: 25 Columna: 2
+Lexema: 1 Tipo: entero Linea: 25 Columna: 4
+Lexema: , Tipo: coma Linea: 25 Columna: 4
+Lexema: Barbacoa Tipo: cadena Linea: 25 Columna: 15
+Lexema: , Tipo: coma Linea: 25 Columna: 16
+Lexema: 10.50 Tipo: decimal Linea: 25 Columna: 23
+Lexema: , Tipo: coma Linea: 25 Columna: 23
+Lexema: 20.00 Tipo: decimal Linea: 25 Columna: 30
+Lexema: , Tipo: coma Linea: 25 Columna: 30
+Lexema: 6 Tipo: entero Linea: 25 Columna: 33
+Lexema: } Tipo: llaveC Linea: 25 Columna: 33
+Lexema: { Tipo: llaveA Linea: 26 Columna: 2
+Lexema: 2 Tipo: entero Linea: 26 Columna: 4
+Lexema: , Tipo: coma Linea: 26 Columna: 4
+Lexema: Salsa Tipo: cadena Linea: 26 Columna: 12
+Lexema: , Tipo: coma Linea: 26 Columna: 13
+Lexema: 13.00 Tipo: decimal Linea: 26 Columna: 20
+Lexema: , Tipo: coma Linea: 26 Columna: 20
+Lexema: 16.00 Tipo: decimal Linea: 26 Columna: 27
+Lexema: , Tipo: coma Linea: 26 Columna: 27
+Lexema: 7 Tipo: entero Linea: 26 Columna: 30
+Lexema: } Tipo: llaveC Linea: 26 Columna: 30
+Lexema: { Tipo: llaveA Linea: 27 Columna: 2
+Lexema: 3 Tipo: entero Linea: 27 Columna: 4
+Lexema: , Tipo: coma Linea: 27 Columna: 4
+Lexema: Mayonesa Tipo: cadena Linea: 27 Columna: 15
+Lexema: , Tipo: coma Linea: 27 Columna: 16
+Lexema: 15.00 Tipo: decimal Linea: 27 Columna: 23
+Lexema: , Tipo: coma Linea: 27 Columna: 23
+Lexema: 18.00 Tipo: decimal Linea: 27 Columna: 30
+Lexema: , Tipo: coma Linea: 27 Columna: 30
+Lexema: 8 Tipo: entero Linea: 27 Columna: 33
+Lexema: } Tipo: llaveC Linea: 27 Columna: 33
+Lexema: { Tipo: llaveA Linea: 28 Columna: 2
+Lexema: 4 Tipo: entero Linea: 28 Columna: 4
+Lexema: , Tipo: coma Linea: 28 Columna: 4
+Lexema: Mostaza Tipo: cadena Linea: 28 Columna: 14
+Lexema: , Tipo: coma Linea: 28 Columna: 15
+Lexema: 14.00 Tipo: decimal Linea: 28 Columna: 22
+Lexema: , Tipo: coma Linea: 28 Columna: 22
+Lexema: 16.00 Tipo: decimal Linea: 28 Columna: 29
+Lexema: , Tipo: coma Linea: 28 Columna: 29
+Lexema: 4 Tipo: entero Linea: 28 Columna: 32
+Lexema: } Tipo: llaveC Linea: 28 Columna: 32
+Lexema: { Tipo: llaveA Linea: 29 Columna: 2
+Lexema: 5 Tipo: entero Linea: 29 Columna: 4
+Lexema: , Tipo: coma Linea: 29 Columna: 4
+Lexema: Frijol Tipo: cadena Linea: 29 Columna: 13
+Lexema: , Tipo: coma Linea: 29 Columna: 14
+Lexema: 10.50 Tipo: decimal Linea: 29 Columna: 21
+Lexema: , Tipo: coma Linea: 29 Columna: 21
+Lexema: 20.00 Tipo: decimal Linea: 29 Columna: 28
+Lexema: , Tipo: coma Linea: 29 Columna: 28
+Lexema: 1 Tipo: entero Linea: 29 Columna: 31
+Lexema: } Tipo: llaveC Linea: 29 Columna: 31
+Lexema: { Tipo: llaveA Linea: 30 Columna: 2
+Lexema: 6 Tipo: entero Linea: 30 Columna: 4
+Lexema: , Tipo: coma Linea: 30 Columna: 4
+Lexema: Azucar Tipo: cadena Linea: 30 Columna: 13
+Lexema: , Tipo: coma Linea: 30 Columna: 14
+Lexema: 13.00 Tipo: decimal Linea: 30 Columna: 21
+Lexema: , Tipo: coma Linea: 30 Columna: 21
+Lexema: 16.00 Tipo: decimal Linea: 30 Columna: 28
+Lexema: , Tipo: coma Linea: 30 Columna: 28
+Lexema: 3 Tipo: entero Linea: 30 Columna: 31
+Lexema: } Tipo: llaveC Linea: 30 Columna: 31
+Lexema: { Tipo: llaveA Linea: 31 Columna: 2
+Lexema: 7 Tipo: entero Linea: 31 Columna: 4
+Lexema: , Tipo: coma Linea: 31 Columna: 4
+Lexema: Carton de Huevos Tipo: cadena Linea: 31 Columna: 23
+Lexema: , Tipo: coma Linea: 31 Columna: 24
+Lexema: 15.00 Tipo: decimal Linea: 31 Columna: 31
+Lexema: , Tipo: coma Linea: 31 Columna: 31
+Lexema: 18.00 Tipo: decimal Linea: 31 Columna: 38
+Lexema: , Tipo: coma Linea: 31 Columna: 38
+Lexema: 2 Tipo: entero Linea: 31 Columna: 41
+Lexema: } Tipo: llaveC Linea: 31 Columna: 41
+Lexema: { Tipo: llaveA Linea: 32 Columna: 2
+Lexema: 8 Tipo: entero Linea: 32 Columna: 4
+Lexema: , Tipo: coma Linea: 32 Columna: 4
+Lexema: Sal en libra Tipo: cadena Linea: 32 Columna: 19
+Lexema: , Tipo: coma Linea: 32 Columna: 20
+Lexema: 14.00 Tipo: decimal Linea: 32 Columna: 27
+Lexema: , Tipo: coma Linea: 32 Columna: 27
+Lexema: 16.00 Tipo: decimal Linea: 32 Columna: 34
+Lexema: , Tipo: coma Linea: 32 Columna: 34
+Lexema: 4 Tipo: entero Linea: 32 Columna: 37
+Lexema: } Tipo: llaveC Linea: 32 Columna: 37
+Lexema: { Tipo: llaveA Linea: 33 Columna: 2
+Lexema: 9 Tipo: entero Linea: 33 Columna: 4
+Lexema: , Tipo: coma Linea: 33 Columna: 4
+Lexema: Consome Tipo: cadena Linea: 33 Columna: 14
+Lexema: , Tipo: coma Linea: 33 Columna: 15
+Lexema: 10.50 Tipo: decimal Linea: 33 Columna: 22
+Lexema: , Tipo: coma Linea: 33 Columna: 22
+Lexema: 20.00 Tipo: decimal Linea: 33 Columna: 29
+Lexema: , Tipo: coma Linea: 33 Columna: 29
+Lexema: 6 Tipo: entero Linea: 33 Columna: 32
+Lexema: } Tipo: llaveC Linea: 33 Columna: 32
+Lexema: { Tipo: llaveA Linea: 34 Columna: 2
+Lexema: 10 Tipo: entero Linea: 34 Columna: 5
+Lexema: , Tipo: coma Linea: 34 Columna: 5
+Lexema: Arroz Tipo: cadena Linea: 34 Columna: 13
+Lexema: , Tipo: coma Linea: 34 Columna: 14
+Lexema: 13.00 Tipo: decimal Linea: 34 Columna: 21
+Lexema: , Tipo: coma Linea: 34 Columna: 21
+Lexema: 16.00 Tipo: decimal Linea: 34 Columna: 28
+Lexema: , Tipo: coma Linea: 34 Columna: 28
+Lexema: 0 Tipo: entero Linea: 34 Columna: 31
+Lexema: } Tipo: llaveC Linea: 34 Columna: 31
+Lexema: { Tipo: llaveA Linea: 35 Columna: 2
+Lexema: 11 Tipo: entero Linea: 35 Columna: 5
+Lexema: , Tipo: coma Linea: 35 Columna: 5
+Lexema: Cafe en sobre Tipo: cadena Linea: 35 Columna: 21
+Lexema: , Tipo: coma Linea: 35 Columna: 22
+Lexema: 15.00 Tipo: decimal Linea: 35 Columna: 29
+Lexema: , Tipo: coma Linea: 35 Columna: 29
+Lexema: 18.00 Tipo: decimal Linea: 35 Columna: 36
+Lexema: , Tipo: coma Linea: 35 Columna: 36
+Lexema: 0 Tipo: entero Linea: 35 Columna: 39
+Lexema: } Tipo: llaveC Linea: 35 Columna: 39
+Lexema: { Tipo: llaveA Linea: 36 Columna: 2
+Lexema: 12 Tipo: entero Linea: 36 Columna: 5
+Lexema: , Tipo: coma Linea: 36 Columna: 5
+Lexema: 1/2 litro de agua pura Tipo: cadena Linea: 36 Columna: 30
+Lexema: , Tipo: coma Linea: 36 Columna: 31
+Lexema: 14.00 Tipo: decimal Linea: 36 Columna: 38
+Lexema: , Tipo: coma Linea: 36 Columna: 38
+Lexema: 16.00 Tipo: decimal Linea: 36 Columna: 45
+Lexema: , Tipo: coma Linea: 36 Columna: 45
+Lexema: 4 Tipo: entero Linea: 36 Columna: 48
+Lexema: } Tipo: llaveC Linea: 36 Columna: 48
+Lexema: ] Tipo: corC Linea: 37 Columna: 1
+Lexema: # Conteo Tipo: comentarioLn Linea: 39 Columna: 9
+Lexema: imprimirln Tipo: imprimirln Linea: 40 Columna: 19
+Lexema: ( Tipo: parA Linea: 40 Columna: 19
+Lexema: /***** ***** ***** Conteo ***** ***** *****\ Tipo: cadena Linea: 40 Columna: 65
+Lexema: ) Tipo: parC Linea: 40 Columna: 66
+Lexema: ; Tipo: puntoComa Linea: 40 Columna: 67
+Lexema: conteo Tipo: conteo Linea: 41 Columna: 7
+Lexema: ( Tipo: parA Linea: 41 Columna: 7
+Lexema: ) Tipo: parC Linea: 41 Columna: 8
+Lexema: ; Tipo: puntoComa Linea: 41 Columna: 9
+Lexema: # Promedio Tipo: comentarioLn Linea: 43 Columna: 11
+Lexema: imprimirln Tipo: imprimirln Linea: 44 Columna: 21
+Lexema: ( Tipo: parA Linea: 44 Columna: 21
+Lexema: /***** ***** ***** Promedio ***** ***** *****\ Tipo: cadena Linea: 44 Columna: 69
+Lexema: ) Tipo: parC Linea: 44 Columna: 70
+Lexema: ; Tipo: puntoComa Linea: 44 Columna: 71
+Lexema: promedio Tipo: promedio Linea: 45 Columna: 9
+Lexema: ( Tipo: parA Linea: 45 Columna: 9
+Lexema: stock Tipo: cadena Linea: 45 Columna: 16
+Lexema: ) Tipo: parC Linea: 45 Columna: 17
+Lexema: ; Tipo: puntoComa Linea: 45 Columna: 18
+Lexema: # Contar si Tipo: comentarioLn Linea: 47 Columna: 12
+Lexema: imprimirln Tipo: imprimirln Linea: 48 Columna: 22
+Lexema: ( Tipo: parA Linea: 48 Columna: 22
+Lexema: /***** ***** ***** Contar si ***** ***** *****\ Tipo: cadena Linea: 48 Columna: 71
+Lexema: ) Tipo: parC Linea: 48 Columna: 72
+Lexema: ; Tipo: puntoComa Linea: 48 Columna: 73
+Lexema: contarsi Tipo: contarsi Linea: 49 Columna: 9
+Lexema: ( Tipo: parA Linea: 49 Columna: 9
+Lexema: producto Tipo: cadena Linea: 49 Columna: 19
+Lexema: , Tipo: coma Linea: 49 Columna: 20
+Lexema: Salsa Tipo: cadena Linea: 49 Columna: 28
+Lexema: ) Tipo: parC Linea: 49 Columna: 29
+Lexema: ; Tipo: puntoComa Linea: 49 Columna: 30
+Lexema: contarsi Tipo: contarsi Linea: 50 Columna: 9
+Lexema: ( Tipo: parA Linea: 50 Columna: 9
+Lexema: stock Tipo: cadena Linea: 50 Columna: 16
+Lexema: , Tipo: coma Linea: 50 Columna: 17
+Lexema: 1 Tipo: entero Linea: 50 Columna: 20
+Lexema: ) Tipo: parC Linea: 50 Columna: 20
+Lexema: ; Tipo: puntoComa Linea: 50 Columna: 21
+Lexema: contarsi Tipo: contarsi Linea: 51 Columna: 9
+Lexema: ( Tipo: parA Linea: 51 Columna: 9
+Lexema: stock Tipo: cadena Linea: 51 Columna: 16
+Lexema: , Tipo: coma Linea: 51 Columna: 17
+Lexema: 2 Tipo: entero Linea: 51 Columna: 20
+Lexema: ) Tipo: parC Linea: 51 Columna: 20
+Lexema: ; Tipo: puntoComa Linea: 51 Columna: 21
+Lexema: # Datos Tipo: comentarioLn Linea: 53 Columna: 8
+Lexema: imprimirln Tipo: imprimirln Linea: 54 Columna: 18
+Lexema: ( Tipo: parA Linea: 54 Columna: 18
+Lexema: /***** ***** ***** Datos ***** ***** *****\ Tipo: cadena Linea: 54 Columna: 63
+Lexema: ) Tipo: parC Linea: 54 Columna: 64
+Lexema: ; Tipo: puntoComa Linea: 54 Columna: 65
+Lexema: datos Tipo: datos Linea: 55 Columna: 6
+Lexema: ( Tipo: parA Linea: 55 Columna: 6
+Lexema: ) Tipo: parC Linea: 55 Columna: 7
+Lexema: ; Tipo: puntoComa Linea: 55 Columna: 8
+Lexema: # Sumar Tipo: comentarioLn Linea: 57 Columna: 8
+Lexema: imprimirln Tipo: imprimirln Linea: 58 Columna: 18
+Lexema: ( Tipo: parA Linea: 58 Columna: 18
+Lexema: /***** ***** ***** Sumar ***** ***** *****\ Tipo: cadena Linea: 58 Columna: 63
+Lexema: ) Tipo: parC Linea: 58 Columna: 64
+Lexema: ; Tipo: puntoComa Linea: 58 Columna: 65
+Lexema: sumar Tipo: sumar Linea: 59 Columna: 6
+Lexema: ( Tipo: parA Linea: 59 Columna: 6
+Lexema: stock Tipo: cadena Linea: 59 Columna: 13
+Lexema: ) Tipo: parC Linea: 59 Columna: 14
+Lexema: ; Tipo: puntoComa Linea: 59 Columna: 15
+Lexema: # Max Tipo: comentarioLn Linea: 61 Columna: 6
+Lexema: imprimirln Tipo: imprimirln Linea: 62 Columna: 16
+Lexema: ( Tipo: parA Linea: 62 Columna: 16
+Lexema: /***** ***** ***** Maximo ***** ***** *****\ Tipo: cadena Linea: 62 Columna: 62
+Lexema: ) Tipo: parC Linea: 62 Columna: 63
+Lexema: ; Tipo: puntoComa Linea: 62 Columna: 64
+Lexema: max Tipo: max Linea: 63 Columna: 4
+Lexema: ( Tipo: parA Linea: 63 Columna: 4
+Lexema: precio_venta Tipo: cadena Linea: 63 Columna: 18
+Lexema: ) Tipo: parC Linea: 63 Columna: 19
+Lexema: ; Tipo: puntoComa Linea: 63 Columna: 20
+Lexema: # Min Tipo: comentarioLn Linea: 65 Columna: 6
+Lexema: imprimirln Tipo: imprimirln Linea: 66 Columna: 16
+Lexema: ( Tipo: parA Linea: 66 Columna: 16
+Lexema: /***** ***** ***** Minimo ***** ***** *****\ Tipo: cadena Linea: 66 Columna: 62
+Lexema: ) Tipo: parC Linea: 66 Columna: 63
+Lexema: ; Tipo: puntoComa Linea: 66 Columna: 64
+Lexema: min Tipo: min Linea: 67 Columna: 4
+Lexema: ( Tipo: parA Linea: 67 Columna: 4
+Lexema: precio_compra Tipo: cadena Linea: 67 Columna: 19
+Lexema: ) Tipo: parC Linea: 67 Columna: 20
+Lexema: ; Tipo: puntoComa Linea: 67 Columna: 21
+Lexema: $ Tipo: EOF Linea: 69 Columna: 1
